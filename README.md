@@ -4,7 +4,9 @@ Chat, paste, edit.
 
 Using OpenAI, export OPENAI_API_KEY -- need to do Ollama 
 
-install tmux, jq, and curl
+Install tmux, jq, and curl
+
+Don't forget to chmod +x the files
 
 To swtich to the chat pane:
 cttl + b + :   
