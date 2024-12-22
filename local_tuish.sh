@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# myapp.sh
+# local_tuish.sh
 # Launches a tmux session with two panes:
 # Left pane for editing a document, right pane for the chat interface.
 
