@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 #
-# myapp.sh
+# tuish.sh
 # Launches a tmux session with two panes:
 # Left pane for editing a document, right pane for the chat interface.
 
-SESSION_NAME="my_two_pane_app"
+SESSION_NAME="TUIsh"
 DOC_FILE="${DOC_FILE:-document.txt}"
 
 # If you have not created the doc yet, let's create an empty one
