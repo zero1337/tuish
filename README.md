@@ -4,6 +4,8 @@ Chat, paste, edit.
 
 Using OpenAI, export OPENAI_API_KEY -- need to do Ollama 
 
+local_chat.sh and local_tuish.sh connect to a oai endpoint on koboldcpp server
+
 Install tmux, jq, and curl
 
 Don't forget to chmod +x the files
