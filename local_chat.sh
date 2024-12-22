@@ -8,7 +8,7 @@
 
 : "${OPENAI_API_URL:=http://localhost:5001/v1/completions}"
 : "${MODEL:=MODEL_NAME}"      # Default model (override with: export MODEL="gpt-3.5-turbo" etc.)
-SYSTEM_MSG="You are a helpful assistant, but this message won't be used in the prompt."
+SYSTEM_MSG="You are a helpful assistant."
 
 # -----------------------------------------------------------------------------
 
@@ -87,7 +87,7 @@ while true; do
     '{
       model: $model,
       prompt: $prompt,
-      max_tokens: 444,
+      max_tokens: 512,
       temperature: 0.8
     }'
   )
